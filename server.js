@@ -81,3 +81,33 @@ function validarCadastro(req, res, next) {
 
   next();
 }
+
+app.get("/voluntarios", (req, res) => {
+  res.json(voluntarios);
+});
+
+app.post("/voluntarios", validarCadastro, (req, res) => {
+  //13 - Obtendo os dados do corpo da requisição
+  const { nome, email, telefone, mensagem } = req.body;
+
+  //14 - Criando um novo objeto de cadastro com o ID atual e os dados fornecidos
+  const novoVoluntario = {
+    id: voluntarios.length + 1,
+    nome,
+    email,
+    telefone,
+    mensagem: mensagem || null,
+  };
+  //15 - Adicionando o novo cadastro ao array de cadastros
+  voluntarios.push(novoVoluntario);
+
+  //16 - Retornando o cadastro criado com o status 201 (Created)
+  res.status(201).json({
+    mensagem: "Cadastro realizado com sucesso!",
+    cadastro: novoVoluntario,
+  });
+});
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta http://localhost:${PORT}/voluntarios`);
+});
