@@ -1,14 +1,6 @@
-## Dev: Romulo Rosa | Rosadev Solutions<br>
+## Dev: Romulo Rosa | Rosadev Solutions - [Github](https://www.github.com/rosadevsolutions) | [LinkedIn](https://www.linkedin.com/in/rosadevsolutions) | [Instagram](https://www.instagram.com/rosadevsolutions)<br><br>
 
-[Github](https://www.github.com/rosadevsolutions) |
-[LinkedIn](https://www.linkedin.com/in/rosadevsolutions) |
-[Instagram](https://www.instagram.com/rosadevsolutions)<br><br>
-
-### Escola/Edtech: Vai na Web -
-
-[Site Institucional](https://vainaweb.com.br/) |
-[LinkedIn](https://www.linkedin.com/company/vainaweb) |
-[Instagram](https://www.instagram.com/wainaweb)
+### Escola/Edtech: Vai na Web - [Site Institucional](https://vainaweb.com.br/) | [LinkedIn](https://www.linkedin.com/company/vainaweb) | [Instagram](https://www.instagram.com/wainaweb)
 
 ### **Turma:** Empower 5.0 - 2026 - Noite - Desenvolvimento FullStack
 
@@ -64,6 +56,8 @@ Através do terminal de sua escolha:
 3. **Dotenv**
    Pacote de dependêcia que carrega variáveis de ambiente a partir de um arquivo .env para dentro do processo da aplicação.<br>
    Comando de Instalação: `$ npm install dotenv`
+
+---
 
 ### Testes Manuais da API
 
